@@ -30,7 +30,7 @@ bool PS2control_loop() // hàm sử dụng tay cầm PS2 để điều khiển
   int nJoyRY = ps2x.Analog(PSS_RY); // đọc giá trị trục Oy của joystick bên phải
 
   // chuyển đổi giá trị trục Oy của các joystick thành giá trị xung
-  // set map ngược để 2 bên động cơ có thể chạy theo ý muốn
+  // set map ngược để động cơ 2 xoay ngược
   nJoyLY = map(nJoyLY, 0, 256, -4092, 4092);
   nJoyRY = map(nJoyRY, 0, 256, 4092, -4092);
   // điểu khiển DC1 với giá trị trục Oy của joystick bên trái
