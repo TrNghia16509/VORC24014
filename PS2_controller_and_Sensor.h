@@ -5,7 +5,6 @@
 #include <Adafruit_Sensor.h>// Thư viện cảm biến
 #include <Adafruit_TCS34725.h>// Thư viện cảm biến màu sắc TCS34725
 #include <Wire.h>
-//#include <motors_and_servos.h>
 
 PS2X ps2x; // create PS2 Controller Class
 
