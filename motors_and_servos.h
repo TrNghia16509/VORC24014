@@ -6,7 +6,7 @@
 #include <PS2X_lib.h>// Thư viện PS2
 
 // Khai báo các chân servo và động cơ 
-// PWM channels of pca9685 0-16
+// PWM channels of pca9685 2, 5-15
 #define DC1_chan1 8
 #define DC1_chan2 9
 #define DC2_chan1 10
