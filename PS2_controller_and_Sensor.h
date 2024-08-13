@@ -125,9 +125,9 @@ bool PS2control_loop() // hàm sử dụng tay cầm PS2 để điều khiển
     S360_PU(4095);
     delay(1000);
   }
-  else {S360_PU(0);
+  else {S360_PU(2048);
   delay(1000);}
-  delay(100);
+  delay(50);
   return 1;
 }
 
